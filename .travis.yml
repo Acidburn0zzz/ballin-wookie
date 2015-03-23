@@ -1,4 +1,2 @@
 language: go
-before_install:
-- # we may need sudo echo
-- ping -c1 google.com
+sudo: required
