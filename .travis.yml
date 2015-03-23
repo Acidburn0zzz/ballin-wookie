@@ -1,2 +1,4 @@
 language: go
-before_install: sudo echo
+before_install:
+- # we may need sudo echo
+- echo
