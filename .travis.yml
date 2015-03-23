@@ -1,4 +1,4 @@
 language: go
 before_install:
 - # we may need sudo echo
-- echo
+- ping -c1 google.com
